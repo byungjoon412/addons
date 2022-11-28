@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 SHARE_DIR=/share/kocom
 
