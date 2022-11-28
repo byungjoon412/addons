@@ -6,7 +6,7 @@ if [ ! -f $SHARE_DIR/rs485.py ]; then
 	mkdir $SHARE_DIR
 	mv /rs485.py $SHARE_DIR
 fi
-/makeconf.sh
+bash makeconf.sh
 
 echo "[Info] Run Wallpad Controller"
 cd $SHARE_DIR
